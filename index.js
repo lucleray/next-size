@@ -6,9 +6,9 @@ module.exports = ({ webpack = config => config, ...nextConfig } = {}) => ({
 
   // overwrite webpack config
   webpack: (config, options) => {
-    const { isServer, buildId, config: { distDir } = {} } = options
+    const { dev, isServer, buildId, config: { distDir } = {} } = options
 
-    if (!isServer) {
+    if (!dev && !isServer) {
       config.plugins.push(new AssetSizePlugin(buildId, distDir))
     }
 
