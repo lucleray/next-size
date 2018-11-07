@@ -6,6 +6,8 @@
 <img  width="600px" alt="browser assets sizes appear magically when running next build ✨" src="demo.png" />
 </div>
 
+> 🎁 Check out the [**example folder**](example) folder if you want to try `next-size` (the example includes css and dynamic imports).
+
 ### Installation
 
 ```
@@ -24,10 +26,6 @@ module.exports = withSize()
 ```
 
 The size of the assets created will be showed when you run `next-build`
-
-<br />
-
-> 🎁 Check out the [**example folder**](example) folder if you want to try `next-size` (the example includes css and dynamic imports).
 
 ### More
 
