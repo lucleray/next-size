@@ -2725,9 +2725,9 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
-next-size@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/next-size/-/next-size-0.0.1.tgz#e14d7d4843e002bfaf5caf04f18ec1803f66a15a"
+next-size@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/next-size/-/next-size-1.0.1.tgz#5ce661c0977c0922b09a38027cab58aeccecf84f"
   dependencies:
     chalk "^2.4.1"
     gzip-size "^5.0.0"
