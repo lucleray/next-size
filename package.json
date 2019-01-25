@@ -9,9 +9,7 @@
     "lib"
   ],
   "dependencies": {
-    "chalk": "^2.4.1",
-    "gzip-size": "^5.0.0",
-    "pretty-bytes": "^5.1.0"
+    "chalk": "^2.4.1"
   },
   "peerDependencies": {
     "next": ">=6"
