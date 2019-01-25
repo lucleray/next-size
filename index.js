@@ -10,6 +10,12 @@ module.exports = ({ webpack = config => config, ...nextConfig } = {}) => ({
 
     if (!dev && !isServer) {
       config.plugins.push(new AssetSizePlugin(buildId, distDir))
+
+      if (config.output.futureEmitAssets) {
+        // next v8 uses `futureEmitAssets` which deactivates asset.size()
+        // so we disable it when using this plugin
+        config.output.futureEmitAssets = false
+      }
     }
 
     return webpack(config, options)
