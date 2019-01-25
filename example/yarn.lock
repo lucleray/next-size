@@ -2714,10 +2714,10 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
-next-size@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/next-size/-/next-size-2.0.0.tgz#08c41325fa220764fe777fbe0703239654951dd7"
-  integrity sha512-kWpMKibrA8pDaEGlKO7X3UTzvGv9l6C7a0Gja/RrPP9tuMvaUJqIobsoGbYv7b1hB9Emz7fFmYetFcqoN2QcHQ==
+next-size@latest:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/next-size/-/next-size-2.0.1.tgz#8480789f4022ee79e5054831175349280c239d7f"
+  integrity sha512-0ooeclVKn/0oalrtzfKRpYyQQTLuiqyAPW9psAKzjEtmC5quCwt/I6JNB/V3CaK2x1Bb9J+Elh1hbB6tZvPauQ==
   dependencies:
     chalk "^2.4.1"
 
