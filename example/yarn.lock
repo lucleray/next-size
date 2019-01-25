@@ -1584,10 +1584,6 @@ domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
 
-duplexer@^0.1.1:
-  version "0.1.1"
-  resolved "http://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
-
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.6.1.tgz#b1a7a29c4abfd639585efaecce80d666b1e34125"
@@ -1976,13 +1972,6 @@ globby@^6.1.0:
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
-
-gzip-size@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-5.0.0.tgz#a55ecd99222f4c48fd8c01c625ce3b349d0a0e80"
-  dependencies:
-    duplexer "^0.1.1"
-    pify "^3.0.0"
 
 has-ansi@^2.0.0:
   version "2.0.0"
@@ -2725,13 +2714,12 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
-next-size@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/next-size/-/next-size-1.0.1.tgz#5ce661c0977c0922b09a38027cab58aeccecf84f"
+next-size@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/next-size/-/next-size-2.0.0.tgz#08c41325fa220764fe777fbe0703239654951dd7"
+  integrity sha512-kWpMKibrA8pDaEGlKO7X3UTzvGv9l6C7a0Gja/RrPP9tuMvaUJqIobsoGbYv7b1hB9Emz7fFmYetFcqoN2QcHQ==
   dependencies:
     chalk "^2.4.1"
-    gzip-size "^5.0.0"
-    pretty-bytes "^5.1.0"
 
 next@^7.0.2:
   version "7.0.2"
@@ -3182,10 +3170,6 @@ postcss@^7.0.0:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.5.0"
-
-pretty-bytes@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.1.0.tgz#6237ecfbdc6525beaef4de722cc60a58ae0e6c6d"
 
 pretty-time@^1.1.0:
   version "1.1.0"
