@@ -16,13 +16,19 @@ yarn add next-size --dev
 
 ### Usage
 
-Edit your next configuration :
+Edit your next configuration and wrap you config with `withSize`.
+Optionnally, you can provide an option to print actual asset sizes (defaults to gzipped sizes).
 
 ```js
 // next.config.js
 const withSize = require('next-size')
 
-module.exports = withSize()
+module.exports = withSize({
+  // NextSizes config is optional
+  nextSizeConfig: {
+    printGzipSizes: true // Defaults to true
+  }
+})
 ```
 
 The size of the assets created will be showed when you run `next-build`

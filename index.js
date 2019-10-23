@@ -1,15 +1,27 @@
 const AssetSizePlugin = require('./lib/asset-size-plugin')
 
+const defaultPluginOptions = {
+  printGzipSizes: true
+}
+
 module.exports = ({ webpack = config => config, ...nextConfig } = {}) => ({
   // pass nextConfig
   ...nextConfig,
 
   // overwrite webpack config
   webpack: (config, options) => {
+    const { nextSizeConfig = defaultPluginOptions } = nextConfig
+    const { printGzipSizes } = nextSizeConfig
     const { dev, isServer, buildId, config: { distDir } = {} } = options
 
     if (!dev && !isServer) {
-      config.plugins.push(new AssetSizePlugin({ buildId, distDir }))
+      config.plugins.push(
+        new AssetSizePlugin({
+          buildId,
+          distDir,
+          printGzipSizes
+        })
+      )
 
       if (config.output.futureEmitAssets) {
         // next v8 uses `futureEmitAssets` which deactivates asset.size()
