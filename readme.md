@@ -1,4 +1,4 @@
-> 👉 If you're using Next.js 9+, you don't need this plugin since it displays [Build Output Statistics](https://nextjs.org/blog/next-9#build-output-statistics) out-of-the-box.
+> ⚠️ This package has been deprecated because it can slow down your build. Upgrade to Next.js 9+ to get [Build Output Statistics](https://nextjs.org/blog/next-9#build-output-statistics) out-of-the-box.
 
 # next-size
 
