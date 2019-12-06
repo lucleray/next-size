@@ -1,3 +1,5 @@
+> 👉 If you're using Next.js 9+, you don't need this plugin since it displays [Build Output Statistics](https://nextjs.org/blog/next-9#build-output-statistics) out-of-the-box.
+
 # next-size
 
 **Next-size** is a next.js plugin to **print browser assets sizes** when running `next build`.
